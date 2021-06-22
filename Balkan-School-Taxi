@@ -1,0 +1,284 @@
+* {
+	margin:0px;
+	padding: 0px;
+
+	font-family: arial;
+}
+
+.menu li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	margin-right: 2px;
+}
+.menu li a{
+	text-decoration:none;
+	color: black;
+	display: block;
+}
+.menu li a:hover{
+	background-color: #0095e6;
+	color: white;
+	border: solid 2px black; 
+} 
+.slika1{
+	height: 800px;
+	position: absolute;
+	top: 10%;
+	right: 10%;
+}
+.tekst{
+	position: absolute;
+	left: 10%;
+	bottom: 55%;
+	font-size: 30px;
+	color: #5f6569;
+}
+.tekst2{
+	position: absolute;
+	left: 10%;
+	bottom: 50%;
+	color: #5f6569;
+	font-size: 20px;
+}
+
+
+
+.slika2{
+	height: 790px;
+	position: absolute;
+	top: 10%;
+	right: 1%;
+}
+.tekst3{
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	font-size: 25px;
+	color: #0095e6;
+}
+.tekst4{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	color: #5f6569;
+}
+.slika3{
+	height: 230px;
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+}
+
+
+
+.slika5{
+	height: 350px;
+	position: absolute;
+	left: 2%;
+	bottom: 2%;
+}
+.slika6{
+	height: 500px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.tekst5{
+	position: absolute;
+	top: 30%;
+	color: #5f6569;
+	left: 42%;
+}
+.tekst6{
+	position: absolute;
+	top: 40%;
+	color: #5f6569;
+	left: 25%;
+}
+.dugmad{
+	position: absolute;
+	top: 60%;
+	left: 51%;
+}
+.dugmad li{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	margin-right: 2px;
+	border: solid 2px black; 
+}
+.dugmad li a{
+	text-decoration:none;
+	color: black;
+	display: block;
+}
+.dugmad li a:hover{
+	background-color: #0095e6;
+	color: white;
+}
+.dugme1{
+	position: absolute;
+	top: 60%;
+	left: 40%;
+}
+.dugme1 li{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	margin-right: 2px;
+	border: solid 2px black;
+	background-color: #0095e6; 
+}
+.dugme1 li a{
+	text-decoration:none;
+	color: black;
+	display: block;
+}
+.dugme1 li a:hover{
+	background-color: white;
+	color: black;
+}
+
+
+
+
+.tekst7{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	color: #5f6569;
+}
+.slika7{
+	position: absolute;
+	top: 30%;
+	right: 10%;
+	height: 600px; 
+}
+
+
+
+
+.tekst8{
+	position: absolute;
+	left: 10%;
+	top: 30%;
+	color: #5f6569;
+}
+.slika4{
+	position: absolute;
+	right: 10%;
+	top: 20%;
+}
+.slika8{
+	position: absolute;
+	left: 20%;
+	top: 60%;
+}
+@media screen and (max-width: 1500px){
+	.dugmad{
+		position: absolute;
+		left: 54%;
+	}
+@media screen and (max-width: 1366px) {
+	.slika2{
+		position: absolute;
+		height: 600px;
+	}
+	.tekst5{
+		position: absolute;
+		left: 39%;
+	}
+	.tekst6{
+		position: absolute;
+		left: 17%;
+	}
+	.dugme1{
+		position: absolute;
+		left: 38%;
+	}
+	.slika1{
+		position: absolute;
+		height: 500px;
+		top: 20%;
+	}
+	.slika7{
+		position: absolute;
+		height: 400px;
+		top: 40%;
+	}
+}
+@media screen and (max-width: 1280px) {
+	.slika1{
+		position: absolute;
+		height: 600px;
+	}
+	.slika2{
+		position: absolute;
+		height: 400px;
+	}
+	.slika6{
+		position: absolute;
+		height: 400px;
+	}
+}
+@media screen and (max-width: 1152px){
+	.slika1{
+		position: absolute;
+		height: 500px;
+	}
+	.dugme1 {
+		left:36%;
+	}
+	.tekst7{
+		position: absolute;
+		left: 4%;
+	}
+	.slika4{
+		position: absolute;
+		height: 200px;
+	}
+}
+@media screen and (max-width: 1024px){
+	.slika1{
+		position: absolute;
+		height: 400px;
+		top: 20%;
+	}
+	.tekst4{
+		font-size: 14px;
+	}
+	.dugme1{
+		left: 34%;
+	}
+	.tekst5{
+		left: 32%;
+	}
+	.tekst6{
+		left: 5%;
+	}
+	.slika7{
+		height: 500px;
+	}
+	.slika4{
+		top:40%;
+	}
+}
